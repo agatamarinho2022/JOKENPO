@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #70D6FF;
+    background-image: url(IMG/back.gif);
+}
+main{
+    text-align: center;  
+}
+P{
+    padding-top: 1em;
+    color: rgb(101, 140, 174);
+}
+div img{
+    width: 6em;
+}
+.title{
+    width: 50em;
+    padding-bottom: 10em;
+}
+.startbutton{
+    width: 30em;
+    
+}
+.startbutton:hover{
+    width: 40em;
+}
+/* Jogada*/
+div{
+    margin-top: 15em;
+}
+div ol{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+div ol li{
+    background-color: #FFD670;
+    margin: 2em;
+    padding: 4em;
+    display: flex;
+    border: 6px solid #FF9770;
+    border-radius: 2em;
+}
+div ol li:hover{
+    transform: scale(110%);
+}
+#vitoria{
+    position: relative;
+    background-color: #FF9770;
+    text-align: center;
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+  }
+
+
